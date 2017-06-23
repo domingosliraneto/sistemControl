@@ -1,0 +1,1150 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_BIT_BANK                      
+C:   00000000  l_CABS                          
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_ISEG                          
+C:   00000000  l_PSEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l_XSEG                          
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_ISEG                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_RSEG2                         
+C:   00000000  s_XABS                          
+C:   00000001  l_RSEG2                         
+C:   00000001  s_PSEG                          
+C:   00000001  s_XISEG                         
+C:   00000001  s_XSEG                          
+C:   00000002  l_BSEG_BYTES                    
+C:   00000002  l_OSEG                          
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  s_OSEG                          
+C:   00000008  s_REG_BANK_1                    
+C:   0000000A  l_GSINIT2                       
+C:   0000000E  l_BSEG                          
+C:   00000010  s_REG_BANK_2                    
+C:   00000014  l_CONST                         
+C:   00000018  s_BIT_BANK                      
+C:   00000018  s_REG_BANK_3                    
+C:   00000019  l_HOME                          
+C:   00000019  s_GSINIT0                       
+C:   0000001C  s_GSINIT1                       
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000001C  s_GSINIT2                       
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000022  l_GSINIT3                       
+C:   00000026  s_GSINIT3                       
+C:   0000002A  l_GSINIT4                       
+C:   00000042  l_GSINIT                        
+C:   00000048  s_GSINIT4                       
+C:   0000005B  s_SSEG                          
+C:   0000005C  l_SSEG                          
+C:   0000006A  l_DSEG                          
+C:   00000072  s_GSINIT                        
+C:   00000072  s_GSINIT5                       
+C:   000000B4  s_GSFINAL                       
+C:   000000B7  s_CSEG                          
+C:   00000100  l_IRAM                          
+C:   0000028C  l_CSEG                          
+C:   00000343  s_CONST                         
+C:   00000357  s_XINIT                         
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+RSEG2                               00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B7  G$lcdCS$0$0                        ultrassonico
+     000000B7  _lcdCS                             ultrassonico
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+     00000080  G$P0$0$0                           ultrassonico
+     00000080  G$P0_0$0$0                         ultrassonico
+     00000080  _P0                                ultrassonico
+     00000080  _P0_0                              ultrassonico
+     00000081  G$P0_1$0$0                         ultrassonico
+     00000081  G$SP$0$0                           ultrassonico
+     00000081  _P0_1                              ultrassonico
+     00000081  _SP                                ultrassonico
+     00000082  G$DPL$0$0                          ultrassonico
+     00000082  G$P0_2$0$0                         ultrassonico
+     00000082  _DPL                               ultrassonico
+     00000082  _P0_2                              ultrassonico
+     00000083  G$DPH$0$0                          ultrassonico
+     00000083  G$P0_3$0$0                         ultrassonico
+     00000083  _DPH                               ultrassonico
+     00000083  _P0_3                              ultrassonico
+     00000084  G$P0_4$0$0                         ultrassonico
+     00000084  _P0_4                              ultrassonico
+     00000085  G$P0_5$0$0                         ultrassonico
+     00000085  _P0_5                              ultrassonico
+     00000086  G$P0_6$0$0                         ultrassonico
+     00000086  _P0_6                              ultrassonico
+     00000087  G$P0_7$0$0                         ultrassonico
+     00000087  G$PCON$0$0                         ultrassonico
+     00000087  _P0_7                              ultrassonico
+     00000087  _PCON                              ultrassonico
+     00000088  G$IT0$0$0                          ultrassonico
+     00000088  G$TCON$0$0                         ultrassonico
+     00000088  _IT0                               ultrassonico
+     00000088  _TCON                              ultrassonico
+     00000089  G$IE0$0$0                          ultrassonico
+     00000089  G$TMOD$0$0                         ultrassonico
+     00000089  _IE0                               ultrassonico
+     00000089  _TMOD                              ultrassonico
+     0000008A  G$IT1$0$0                          ultrassonico
+     0000008A  G$TL0$0$0                          ultrassonico
+     0000008A  _IT1                               ultrassonico
+     0000008A  _TL0                               ultrassonico
+     0000008B  G$IE1$0$0                          ultrassonico
+     0000008B  G$TL1$0$0                          ultrassonico
+     0000008B  _IE1                               ultrassonico
+     0000008B  _TL1                               ultrassonico
+     0000008C  G$TH0$0$0                          ultrassonico
+     0000008C  G$TR0$0$0                          ultrassonico
+     0000008C  _TH0                               ultrassonico
+     0000008C  _TR0                               ultrassonico
+     0000008D  G$TF0$0$0                          ultrassonico
+     0000008D  G$TH1$0$0                          ultrassonico
+     0000008D  _TF0                               ultrassonico
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000008D  _TH1                               ultrassonico
+     0000008E  G$TR1$0$0                          ultrassonico
+     0000008E  _TR1                               ultrassonico
+     0000008F  G$CLKREG$0$0                       ultrassonico
+     0000008F  G$TF1$0$0                          ultrassonico
+     0000008F  _CLKREG                            ultrassonico
+     0000008F  _TF1                               ultrassonico
+     00000090  G$LCD$0$0                          ultrassonico
+     00000090  G$P1$0$0                           ultrassonico
+     00000090  G$P1_0$0$0                         ultrassonico
+     00000090  G$S1D1$0$0                         ultrassonico
+     00000090  _LCD                               ultrassonico
+     00000090  _P1                                ultrassonico
+     00000090  _P1_0                              ultrassonico
+     00000090  _S1D1                              ultrassonico
+     00000091  G$P1_1$0$0                         ultrassonico
+     00000091  G$S2D2$0$0                         ultrassonico
+     00000091  _P1_1                              ultrassonico
+     00000091  _S2D2                              ultrassonico
+     00000092  G$P1_2$0$0                         ultrassonico
+     00000092  G$TrigPin$0$0                      ultrassonico
+     00000092  _P1_2                              ultrassonico
+     00000092  _TrigPin                           ultrassonico
+     00000093  G$P1_3$0$0                         ultrassonico
+     00000093  G$adcCS$0$0                        ultrassonico
+     00000093  _P1_3                              ultrassonico
+     00000093  _adcCS                             ultrassonico
+     00000094  G$P1_4$0$0                         ultrassonico
+     00000094  _P1_4                              ultrassonico
+     00000095  G$P1_5$0$0                         ultrassonico
+     00000095  _P1_5                              ultrassonico
+     00000096  G$P1_6$0$0                         ultrassonico
+     00000096  _P1_6                              ultrassonico
+     00000097  G$P1_7$0$0                         ultrassonico
+     00000097  _P1_7                              ultrassonico
+     00000098  G$RI$0$0                           ultrassonico
+     00000098  G$SCON$0$0                         ultrassonico
+     00000098  _RI                                ultrassonico
+     00000098  _SCON                              ultrassonico
+     00000099  G$SBUF$0$0                         ultrassonico
+     00000099  G$TI$0$0                           ultrassonico
+     00000099  _SBUF                              ultrassonico
+     00000099  _TI                                ultrassonico
+     0000009A  G$RB8$0$0                          ultrassonico
+     0000009A  _RB8                               ultrassonico
+     0000009B  G$TB8$0$0                          ultrassonico
+     0000009B  _TB8                               ultrassonico
+     0000009C  G$REN$0$0                          ultrassonico
+     0000009C  _REN                               ultrassonico
+     0000009D  G$SM2$0$0                          ultrassonico
+     0000009D  _SM2                               ultrassonico
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000009E  G$SM1$0$0                          ultrassonico
+     0000009E  _SM1                               ultrassonico
+     0000009F  G$SM0$0$0                          ultrassonico
+     0000009F  _SM0                               ultrassonico
+     000000A0  G$P2$0$0                           ultrassonico
+     000000A0  G$P2_0$0$0                         ultrassonico
+     000000A0  _P2                                ultrassonico
+     000000A0  _P2_0                              ultrassonico
+     000000A0  __XPAGE                            
+     000000A1  G$P2_1$0$0                         ultrassonico
+     000000A1  _P2_1                              ultrassonico
+     000000A2  G$P2_2$0$0                         ultrassonico
+     000000A2  _P2_2                              ultrassonico
+     000000A3  G$P2_3$0$0                         ultrassonico
+     000000A3  _P2_3                              ultrassonico
+     000000A4  G$P2_4$0$0                         ultrassonico
+     000000A4  _P2_4                              ultrassonico
+     000000A5  G$P2_5$0$0                         ultrassonico
+     000000A5  _P2_5                              ultrassonico
+     000000A6  G$P2_6$0$0                         ultrassonico
+     000000A6  _P2_6                              ultrassonico
+     000000A7  G$P2_7$0$0                         ultrassonico
+     000000A7  _P2_7                              ultrassonico
+     000000A8  G$EX0$0$0                          ultrassonico
+     000000A8  G$IE$0$0                           ultrassonico
+     000000A8  _EX0                               ultrassonico
+     000000A8  _IE                                ultrassonico
+     000000A9  G$ET0$0$0                          ultrassonico
+     000000A9  _ET0                               ultrassonico
+     000000AA  G$EX1$0$0                          ultrassonico
+     000000AA  _EX1                               ultrassonico
+     000000AB  G$ET1$0$0                          ultrassonico
+     000000AB  _ET1                               ultrassonico
+     000000AC  G$ES$0$0                           ultrassonico
+     000000AC  _ES                                ultrassonico
+     000000AF  G$EA$0$0                           ultrassonico
+     000000AF  _EA                                ultrassonico
+     000000B0  G$P3$0$0                           ultrassonico
+     000000B0  G$P3_0$0$0                         ultrassonico
+     000000B0  G$RXD$0$0                          ultrassonico
+     000000B0  G$RxLed$0$0                        ultrassonico
+     000000B0  _P3                                ultrassonico
+     000000B0  _P3_0                              ultrassonico
+     000000B0  _RXD                               ultrassonico
+     000000B0  _RxLed                             ultrassonico
+     000000B1  G$P3_1$0$0                         ultrassonico
+     000000B1  G$TXD$0$0                          ultrassonico
+     000000B1  G$TxBip$0$0                        ultrassonico
+     000000B1  _P3_1                              ultrassonico
+     000000B1  _TXD                               ultrassonico
+     000000B1  _TxBip                             ultrassonico
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B2  G$INT0$0$0                         ultrassonico
+     000000B2  G$P3_2$0$0                         ultrassonico
+     000000B2  G$SwInt$0$0                        ultrassonico
+     000000B2  _INT0                              ultrassonico
+     000000B2  _P3_2                              ultrassonico
+     000000B2  _SwInt                             ultrassonico
+     000000B3  G$INT1$0$0                         ultrassonico
+     000000B3  G$P3_3$0$0                         ultrassonico
+     000000B3  _INT1                              ultrassonico
+     000000B3  _P3_3                              ultrassonico
+     000000B4  G$DC$0$0                           ultrassonico
+     000000B4  G$P3_4$0$0                         ultrassonico
+     000000B4  G$T0$0$0                           ultrassonico
+     000000B4  G$adcCk$0$0                        ultrassonico
+     000000B4  _DC                                ultrassonico
+     000000B4  _P3_4                              ultrassonico
+     000000B4  _T0                                ultrassonico
+     000000B4  _adcCk                             ultrassonico
+     000000B5  G$P3_5$0$0                         ultrassonico
+     000000B5  G$RW$0$0                           ultrassonico
+     000000B5  G$T1$0$0                           ultrassonico
+     000000B5  G$adcDt$0$0                        ultrassonico
+     000000B5  _P3_5                              ultrassonico
+     000000B5  _RW                                ultrassonico
+     000000B5  _T1                                ultrassonico
+     000000B5  _adcDt                             ultrassonico
+     000000B6  G$P3_6$0$0                         ultrassonico
+     000000B6  G$WR$0$0                           ultrassonico
+     000000B6  _P3_6                              ultrassonico
+     000000B6  _WR                                ultrassonico
+     000000B7  G$P3_7$0$0                         ultrassonico
+     000000B7  G$RD$0$0                           ultrassonico
+     000000B7  _P3_7                              ultrassonico
+     000000B7  _RD                                ultrassonico
+     000000B8  G$IP$0$0                           ultrassonico
+     000000B8  G$PX0$0$0                          ultrassonico
+     000000B8  _IP                                ultrassonico
+     000000B8  _PX0                               ultrassonico
+     000000B9  G$PT0$0$0                          ultrassonico
+     000000B9  _PT0                               ultrassonico
+     000000BA  G$PX1$0$0                          ultrassonico
+     000000BA  _PX1                               ultrassonico
+     000000BB  G$PT1$0$0                          ultrassonico
+     000000BB  _PT1                               ultrassonico
+     000000BC  G$PS$0$0                           ultrassonico
+     000000BC  _PS                                ultrassonico
+     000000D0  G$P$0$0                            ultrassonico
+     000000D0  G$PSW$0$0                          ultrassonico
+     000000D0  _P                                 ultrassonico
+     000000D0  _PSW                               ultrassonico
+     000000D1  G$F1$0$0                           ultrassonico
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000D1  _F1                                ultrassonico
+     000000D2  G$OV$0$0                           ultrassonico
+     000000D2  _OV                                ultrassonico
+     000000D3  G$RS0$0$0                          ultrassonico
+     000000D3  _RS0                               ultrassonico
+     000000D4  G$RS1$0$0                          ultrassonico
+     000000D4  _RS1                               ultrassonico
+     000000D5  G$F0$0$0                           ultrassonico
+     000000D5  _F0                                ultrassonico
+     000000D6  G$AC$0$0                           ultrassonico
+     000000D6  _AC                                ultrassonico
+     000000D7  G$CY$0$0                           ultrassonico
+     000000D7  _CY                                ultrassonico
+     000000E0  G$ACC$0$0                          ultrassonico
+     000000E0  _ACC                               ultrassonico
+     000000F0  G$B$0$0                            ultrassonico
+     000000F0  _B                                 ultrassonico
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BSEG_BYTES                          00000020    00000002 =           2. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    0000006A =         106. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000022  G$S1$0$0                           ultrassonico
+     00000022  _S1                                ultrassonico
+     00000023  G$S2$0$0                           ultrassonico
+     00000023  _S2                                ultrassonico
+     00000024  G$cont$0$0                         ultrassonico
+     00000024  _cont                              ultrassonico
+     00000025  G$disp1$0$0                        ultrassonico
+     00000025  _disp1                             ultrassonico
+     00000026  G$disp2$0$0                        ultrassonico
+     00000026  _disp2                             ultrassonico
+     00000027  G$cnt100$0$0                       ultrassonico
+     00000027  _cnt100                            ultrassonico
+     00000028  G$cnt200$0$0                       ultrassonico
+     00000028  _cnt200                            ultrassonico
+     00000029  G$x50us$0$0                        ultrassonico
+     00000029  _x50us                             ultrassonico
+     0000002A  G$freq$0$0                         ultrassonico
+     0000002A  _freq                              ultrassonico
+     0000002B  G$RxByte$0$0                       ultrassonico
+     0000002B  _RxByte                            ultrassonico
+     0000002C  G$TxByte$0$0                       ultrassonico
+     0000002C  _TxByte                            ultrassonico
+     0000002D  G$rRxB$0$0                         ultrassonico
+     0000002D  _rRxB                              ultrassonico
+     0000002E  G$wRxB$0$0                         ultrassonico
+     0000002E  _wRxB                              ultrassonico
+     0000002F  G$rTxB$0$0                         ultrassonico
+     0000002F  _rTxB                              ultrassonico
+     00000030  G$wTxB$0$0                         ultrassonico
+     00000030  _wTxB                              ultrassonico
+     00000031  G$RxB$0$0                          ultrassonico
+     00000031  _RxB                               ultrassonico
+     00000041  G$TxB$0$0                          ultrassonico
+     00000041  _TxB                               ultrassonico
+     00000051  G$algs$0$0                         ultrassonico
+     00000051  _algs                              ultrassonico
+     00000056  Lultrassonico.char2LCD$val$1$12    ultrassonico
+     00000056  _char2LCD_PARM_2                   ultrassonico
+     00000057  Lultrassonico.char2LCD$dot$1$12    ultrassonico
+     00000057  _char2LCD_PARM_3                   ultrassonico
+     00000058  G$Echo$0$0                         ultrassonico
+     00000058  _Echo                              ultrassonico
+     0000005A  G$TrigCont$0$0                     ultrassonico
+     0000005A  _TrigCont                          ultrassonico
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+OSEG                                00000008    00000002 =           2. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000008  __divsint_PARM_2                   _divuint
+     00000008  __divuint_PARM_2                   _divuint
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                0000005B    0000005C =          92. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000005B  __start__stack                     ultrassonico
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    00000019 =          25. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  A$ultrassonico$573                 ultrassonico
+C:   00000003  A$ultrassonico$574                 ultrassonico
+C:   0000000B  A$ultrassonico$576                 ultrassonico
+C:   00000013  A$ultrassonico$578                 ultrassonico
+C:   00000016  A$ultrassonico$688                 ultrassonico
+C:   00000016  __sdcc_program_startup             ultrassonico
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00000019    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000019  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             0000001C    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             00000026    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000026  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             00000048    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000048  __mcs51_genRAMCLEAR                
+C:   0000004E  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              00000072    00000042 =          66. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000072  A$ultrassonico$594                 ultrassonico
+C:   00000072  C$uRTOS_2.21.h$38$1$26             ultrassonico
+C:   00000075  A$ultrassonico$597                 ultrassonico
+C:   00000075  C$uRTOS_2.21.h$39$1$26             ultrassonico
+C:   00000078  A$ultrassonico$600                 ultrassonico
+C:   00000078  C$uRTOS_2.21.h$40$1$26             ultrassonico
+C:   0000007B  A$ultrassonico$603                 ultrassonico
+C:   0000007B  C$uRTOS_2.21.h$41$1$26             ultrassonico
+C:   0000007E  A$ultrassonico$606                 ultrassonico
+C:   0000007E  C$uRTOS_2.21.h$42$1$26             ultrassonico
+C:   00000081  A$ultrassonico$609                 ultrassonico
+C:   00000081  C$uRTOS_2.21.h$43$1$26             ultrassonico
+C:   00000084  A$ultrassonico$612                 ultrassonico
+C:   00000084  C$uRTOS_2.21.h$44$1$26             ultrassonico
+C:   00000087  A$ultrassonico$615                 ultrassonico
+C:   00000087  C$uRTOS_2.21.h$46$1$26             ultrassonico
+C:   0000008A  A$ultrassonico$618                 ultrassonico
+C:   0000008A  C$uRTOS_2.21.h$49$1$26             ultrassonico
+C:   0000008D  A$ultrassonico$621                 ultrassonico
+C:   0000008D  C$uRTOS_2.21.h$50$1$26             ultrassonico
+C:   00000090  A$ultrassonico$624                 ultrassonico
+C:   00000090  C$uRTOS_2.21.h$51$1$26             ultrassonico
+C:   00000093  A$ultrassonico$627                 ultrassonico
+C:   00000093  C$uRTOS_2.21.h$52$1$26             ultrassonico
+C:   00000096  A$ultrassonico$630                 ultrassonico
+C:   00000096  C$ultrassonico.c$4$1$26            ultrassonico
+C:   00000097  A$ultrassonico$631                 ultrassonico
+C:   00000099  A$ultrassonico$632                 ultrassonico
+C:   0000009B  A$ultrassonico$635                 ultrassonico
+C:   0000009B  C$ultrassonico.c$5$1$26            ultrassonico
+C:   0000009E  A$ultrassonico$639                 ultrassonico
+C:   0000009E  C$uRTOS_2.21.h$27$1$26             ultrassonico
+C:   000000A0  A$ultrassonico$643                 ultrassonico
+C:   000000A0  C$uRTOS_2.21.h$28$1$26             ultrassonico
+C:   000000A2  A$ultrassonico$647                 ultrassonico
+C:   000000A2  C$uRTOS_2.21.h$29$1$26             ultrassonico
+C:   000000A4  A$ultrassonico$651                 ultrassonico
+C:   000000A4  C$uRTOS_2.21.h$30$1$26             ultrassonico
+C:   000000A6  A$ultrassonico$655                 ultrassonico
+C:   000000A6  C$uRTOS_2.21.h$31$1$26             ultrassonico
+C:   000000A8  A$ultrassonico$659                 ultrassonico
+C:   000000A8  C$uRTOS_2.21.h$32$1$26             ultrassonico
+C:   000000AA  A$ultrassonico$663                 ultrassonico
+C:   000000AA  C$uRTOS_2.21.h$33$1$26             ultrassonico
+C:   000000AC  A$ultrassonico$667                 ultrassonico
+C:   000000AC  C$uRTOS_2.21.h$34$1$26             ultrassonico
+C:   000000AE  A$ultrassonico$671                 ultrassonico
+C:   000000AE  C$uRTOS_2.21.h$35$1$26             ultrassonico
+C:   000000B0  A$ultrassonico$675                 ultrassonico
+C:   000000B0  C$uRTOS_2.21.h$37$1$26             ultrassonico
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              00000072    00000042 =          66. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000B2  A$ultrassonico$679                 ultrassonico
+C:   000000B2  C$uRTOS_2.21.h$20$1$26             ultrassonico
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             000000B4    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000B4  A$ultrassonico$681                 ultrassonico
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B7    0000028C =         652. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000B7  A$ultrassonico$712                 ultrassonico
+C:   000000B7  C$uRTOS_2.21.h$76$0$0              ultrassonico
+C:   000000B7  G$ext_0$0$0                        ultrassonico
+C:   000000B7  _ext_0                             ultrassonico
+C:   000000B9  A$ultrassonico$713                 ultrassonico
+C:   000000BB  A$ultrassonico$717                 ultrassonico
+C:   000000BB  C$uRTOS_2.21.h$77$1$2              ultrassonico
+C:   000000BD  A$ultrassonico$720                 ultrassonico
+C:   000000BD  C$uRTOS_2.21.h$78$1$2              ultrassonico
+C:   000000C0  A$ultrassonico$723                 ultrassonico
+C:   000000C0  C$uRTOS_2.21.h$79$2$3              ultrassonico
+C:   000000C2  A$ultrassonico$724                 ultrassonico
+C:   000000C4  A$ultrassonico$725                 ultrassonico
+C:   000000C6  A$ultrassonico$726                 ultrassonico
+C:   000000C8  A$ultrassonico$727                 ultrassonico
+C:   000000CA  A$ultrassonico$731                 ultrassonico
+C:   000000CA  C$uRTOS_2.21.h$82$2$4              ultrassonico
+C:   000000CC  A$ultrassonico$732                 ultrassonico
+C:   000000CE  A$ultrassonico$733                 ultrassonico
+C:   000000D0  A$ultrassonico$734                 ultrassonico
+C:   000000D2  A$ultrassonico$736                 ultrassonico
+C:   000000D4  A$ultrassonico$737                 ultrassonico
+C:   000000D6  A$ultrassonico$740                 ultrassonico
+C:   000000D6  C$uRTOS_2.21.h$84$1$2              ultrassonico
+C:   000000D6  XG$ext_0$0$0                       ultrassonico
+C:   000000D7  A$ultrassonico$758                 ultrassonico
+C:   000000D7  C$uRTOS_2.21.h$129$1$6             ultrassonico
+C:   000000D7  C$uRTOS_2.21.h$89$1$2              ultrassonico
+C:   000000D7  G$timer_0$0$0                      ultrassonico
+C:   000000D7  _timer_0                           ultrassonico
+C:   000000D9  A$ultrassonico$759                 ultrassonico
+C:   000000DB  A$ultrassonico$760                 ultrassonico
+C:   000000DE  A$ultrassonico$761                 ultrassonico
+C:   000000E1  A$ultrassonico$762                 ultrassonico
+C:   000000E4  A$ultrassonico$764                 ultrassonico
+C:   000000E7  A$ultrassonico$765                 ultrassonico
+C:   000000E9  A$ultrassonico$767                 ultrassonico
+C:   000000EC  A$ultrassonico$768                 ultrassonico
+C:   000000EF  A$ultrassonico$769                 ultrassonico
+C:   000000F2  A$ultrassonico$770                 ultrassonico
+C:   000000F5  A$ultrassonico$771                 ultrassonico
+C:   000000F7  A$ultrassonico$773                 ultrassonico
+C:   000000FA  A$ultrassonico$774                 ultrassonico
+C:   000000FC  A$ultrassonico$775                 ultrassonico
+C:   000000FF  A$ultrassonico$776                 ultrassonico
+C:   00000101  A$ultrassonico$778                 ultrassonico
+C:   00000104  A$ultrassonico$780                 ultrassonico
+C:   00000106  A$ultrassonico$781                 ultrassonico
+C:   00000109  A$ultrassonico$782                 ultrassonico
+C:   0000010C  A$ultrassonico$783                 ultrassonico
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B7    0000028C =         652. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000010F  A$ultrassonico$785                 ultrassonico
+C:   00000111  A$ultrassonico$786                 ultrassonico
+C:   00000113  A$ultrassonico$787                 ultrassonico
+C:   00000115  A$ultrassonico$789                 ultrassonico
+C:   00000117  A$ultrassonico$790                 ultrassonico
+C:   0000011A  A$ultrassonico$791                 ultrassonico
+C:   0000011D  A$ultrassonico$792                 ultrassonico
+C:   00000120  A$ultrassonico$794                 ultrassonico
+C:   00000122  A$ultrassonico$795                 ultrassonico
+C:   00000124  A$ultrassonico$798                 ultrassonico
+C:   00000126  A$ultrassonico$799                 ultrassonico
+C:   00000129  A$ultrassonico$800                 ultrassonico
+C:   0000012B  A$ultrassonico$802                 ultrassonico
+C:   0000012E  A$ultrassonico$804                 ultrassonico
+C:   00000130  A$ultrassonico$805                 ultrassonico
+C:   00000132  A$ultrassonico$806                 ultrassonico
+C:   00000133  A$ultrassonico$823                 ultrassonico
+C:   00000133  C$uRTOS_2.21.h$130$1$6             ultrassonico
+C:   00000133  C$uRTOS_2.21.h$134$1$6             ultrassonico
+C:   00000133  C$uRTOS_2.21.h$148$1$7             ultrassonico
+C:   00000133  G$delay50$0$0                      ultrassonico
+C:   00000133  XG$timer_0$0$0                     ultrassonico
+C:   00000133  _delay50                           ultrassonico
+C:   00000135  A$ultrassonico$824                 ultrassonico
+C:   00000137  A$ultrassonico$825                 ultrassonico
+C:   00000139  A$ultrassonico$826                 ultrassonico
+C:   0000013A  A$ultrassonico$827                 ultrassonico
+C:   0000013C  A$ultrassonico$828                 ultrassonico
+C:   0000013E  A$ultrassonico$829                 ultrassonico
+C:   00000140  A$ultrassonico$831                 ultrassonico
+C:   00000141  A$ultrassonico$833                 ultrassonico
+C:   00000144  A$ultrassonico$834                 ultrassonico
+C:   00000146  A$ultrassonico$835                 ultrassonico
+C:   00000148  A$ultrassonico$836                 ultrassonico
+C:   00000149  A$ultrassonico$852                 ultrassonico
+C:   00000149  C$uRTOS_2.21.h$149$1$7             ultrassonico
+C:   00000149  C$uRTOS_2.21.h$153$1$7             ultrassonico
+C:   00000149  G$wrLCD8$0$0                       ultrassonico
+C:   00000149  XG$delay50$0$0                     ultrassonico
+C:   00000149  _wrLCD8                            ultrassonico
+C:   0000014B  A$ultrassonico$856                 ultrassonico
+C:   0000014B  C$uRTOS_2.21.h$154$1$9             ultrassonico
+C:   0000014D  A$ultrassonico$857                 ultrassonico
+C:   0000014F  A$ultrassonico$859                 ultrassonico
+C:   00000151  A$ultrassonico$862                 ultrassonico
+C:   00000151  C$uRTOS_2.21.h$155$1$9             ultrassonico
+C:   00000152  A$ultrassonico$863                 ultrassonico
+C:   00000154  A$ultrassonico$865                 ultrassonico
+C:   00000156  A$ultrassonico$866                 ultrassonico
+C:   00000158  A$ultrassonico$867                 ultrassonico
+C:   00000159  A$ultrassonico$868                 ultrassonico
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B7    0000028C =         652. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000015B  A$ultrassonico$870                 ultrassonico
+C:   0000015D  A$ultrassonico$871                 ultrassonico
+C:   0000015F  A$ultrassonico$874                 ultrassonico
+C:   0000015F  C$uRTOS_2.21.h$156$1$9             ultrassonico
+C:   00000160  A$ultrassonico$875                 ultrassonico
+C:   00000162  A$ultrassonico$877                 ultrassonico
+C:   00000164  A$ultrassonico$878                 ultrassonico
+C:   00000166  A$ultrassonico$879                 ultrassonico
+C:   00000167  A$ultrassonico$880                 ultrassonico
+C:   00000168  A$ultrassonico$882                 ultrassonico
+C:   0000016A  A$ultrassonico$883                 ultrassonico
+C:   0000016C  A$ultrassonico$886                 ultrassonico
+C:   0000016C  C$uRTOS_2.21.h$157$1$9             ultrassonico
+C:   0000016F  A$ultrassonico$887                 ultrassonico
+C:   00000172  A$ultrassonico$891                 ultrassonico
+C:   00000172  C$uRTOS_2.21.h$158$1$9             ultrassonico
+C:   00000174  A$ultrassonico$894                 ultrassonico
+C:   00000174  C$uRTOS_2.21.h$159$1$9             ultrassonico
+C:   00000177  A$ultrassonico$895                 ultrassonico
+C:   0000017A  A$ultrassonico$899                 ultrassonico
+C:   0000017A  C$uRTOS_2.21.h$160$1$9             ultrassonico
+C:   0000017C  A$ultrassonico$902                 ultrassonico
+C:   0000017C  C$uRTOS_2.21.h$161$1$9             ultrassonico
+C:   0000017F  A$ultrassonico$903                 ultrassonico
+C:   00000182  A$ultrassonico$907                 ultrassonico
+C:   00000182  C$uRTOS_2.21.h$162$1$9             ultrassonico
+C:   00000184  A$ultrassonico$909                 ultrassonico
+C:   00000186  A$ultrassonico$912                 ultrassonico
+C:   00000186  C$uRTOS_2.21.h$163$1$9             ultrassonico
+C:   00000186  XG$wrLCD8$0$0                      ultrassonico
+C:   00000187  A$ultrassonico$926                 ultrassonico
+C:   00000187  C$uRTOS_2.21.h$167$1$9             ultrassonico
+C:   00000187  G$wrLCD4$0$0                       ultrassonico
+C:   00000187  _wrLCD4                            ultrassonico
+C:   00000189  A$ultrassonico$929                 ultrassonico
+C:   00000189  C$uRTOS_2.21.h$169$1$11            ultrassonico
+C:   0000018B  A$ultrassonico$930                 ultrassonico
+C:   0000018C  A$ultrassonico$931                 ultrassonico
+C:   0000018D  A$ultrassonico$935                 ultrassonico
+C:   0000018D  C$uRTOS_2.21.h$170$1$11            ultrassonico
+C:   0000018F  A$ultrassonico$936                 ultrassonico
+C:   00000191  A$ultrassonico$937                 ultrassonico
+C:   00000193  A$ultrassonico$938                 ultrassonico
+C:   00000195  A$ultrassonico$939                 ultrassonico
+C:   00000198  A$ultrassonico$940                 ultrassonico
+C:   0000019A  A$ultrassonico$943                 ultrassonico
+C:   0000019A  C$uRTOS_2.21.h$171$1$11            ultrassonico
+C:   0000019B  A$ultrassonico$944                 ultrassonico
+C:   0000019C  A$ultrassonico$945                 ultrassonico
+C:   0000019E  A$ultrassonico$946                 ultrassonico
+C:   0000019F  A$ultrassonico$947                 ultrassonico
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B7    0000028C =         652. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000001A1  A$ultrassonico$948                 ultrassonico
+C:   000001A2  A$ultrassonico$949                 ultrassonico
+C:   000001A3  A$ultrassonico$953                 ultrassonico
+C:   000001A3  C$uRTOS_2.21.h$172$1$11            ultrassonico
+C:   000001A5  A$ultrassonico$954                 ultrassonico
+C:   000001A7  A$ultrassonico$955                 ultrassonico
+C:   000001A9  A$ultrassonico$956                 ultrassonico
+C:   000001AC  A$ultrassonico$959                 ultrassonico
+C:   000001AC  C$uRTOS_2.21.h$173$1$11            ultrassonico
+C:   000001AC  XG$wrLCD4$0$0                      ultrassonico
+C:   000001AD  A$ultrassonico$975                 ultrassonico
+C:   000001AD  C$uRTOS_2.21.h$178$1$11            ultrassonico
+C:   000001AD  G$char2LCD$0$0                     ultrassonico
+C:   000001AD  _char2LCD                          ultrassonico
+C:   000001AF  A$ultrassonico$979                 ultrassonico
+C:   000001AF  C$uRTOS_2.21.h$180$1$13            ultrassonico
+C:   000001B1  A$ultrassonico$980                 ultrassonico
+C:   000001B3  A$ultrassonico$981                 ultrassonico
+C:   000001B6  A$ultrassonico$984                 ultrassonico
+C:   000001B6  C$uRTOS_2.21.h$181$1$13            ultrassonico
+C:   000001B9  A$ultrassonico$985                 ultrassonico
+C:   000001BB  A$ultrassonico$986                 ultrassonico
+C:   000001BC  A$ultrassonico$987                 ultrassonico
+C:   000001BE  A$ultrassonico$988                 ultrassonico
+C:   000001C0  A$ultrassonico$991                 ultrassonico
+C:   000001C0  C$uRTOS_2.21.h$182$1$13            ultrassonico
+C:   000001C3  A$ultrassonico$992                 ultrassonico
+C:   000001C5  A$ultrassonico$993                 ultrassonico
+C:   000001C6  A$ultrassonico$994                 ultrassonico
+C:   000001C9  A$ultrassonico$997                 ultrassonico
+C:   000001C9  C$uRTOS_2.21.h$183$1$13            ultrassonico
+C:   000001CC  A$ultrassonico$998                 ultrassonico
+C:   000001CE  A$ultrassonico$999                 ultrassonico
+C:   000001CF  A$ultrassonico$1000                ultrassonico
+C:   000001D1  A$ultrassonico$1001                ultrassonico
+C:   000001D3  A$ultrassonico$1004                ultrassonico
+C:   000001D3  C$uRTOS_2.21.h$184$1$13            ultrassonico
+C:   000001D6  A$ultrassonico$1005                ultrassonico
+C:   000001D8  A$ultrassonico$1006                ultrassonico
+C:   000001D9  A$ultrassonico$1007                ultrassonico
+C:   000001DB  A$ultrassonico$1008                ultrassonico
+C:   000001DD  A$ultrassonico$1009                ultrassonico
+C:   000001DF  A$ultrassonico$1012                ultrassonico
+C:   000001E1  A$ultrassonico$1016                ultrassonico
+C:   000001E1  C$uRTOS_2.21.h$186$3$15            ultrassonico
+C:   000001E2  A$ultrassonico$1017                ultrassonico
+C:   000001E5  A$ultrassonico$1019                ultrassonico
+C:   000001E7  A$ultrassonico$1020                ultrassonico
+C:   000001EA  A$ultrassonico$1021                ultrassonico
+C:   000001EC  A$ultrassonico$1022                ultrassonico
+C:   000001EF  A$ultrassonico$1023                ultrassonico
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B7    0000028C =         652. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000001F1  A$ultrassonico$1027                ultrassonico
+C:   000001F1  C$uRTOS_2.21.h$187$3$15            ultrassonico
+C:   000001F2  A$ultrassonico$1028                ultrassonico
+C:   000001F4  A$ultrassonico$1029                ultrassonico
+C:   000001F5  A$ultrassonico$1030                ultrassonico
+C:   000001F7  A$ultrassonico$1032                ultrassonico
+C:   000001F9  A$ultrassonico$1033                ultrassonico
+C:   000001FB  A$ultrassonico$1034                ultrassonico
+C:   000001FE  A$ultrassonico$1035                ultrassonico
+C:   00000200  A$ultrassonico$1038                ultrassonico
+C:   00000200  C$uRTOS_2.21.h$185$2$14            ultrassonico
+C:   00000201  A$ultrassonico$1039                ultrassonico
+C:   00000204  A$ultrassonico$1041                ultrassonico
+C:   00000206  A$ultrassonico$1044                ultrassonico
+C:   00000206  C$uRTOS_2.21.h$189$2$14            ultrassonico
+C:   00000206  XG$char2LCD$0$0                    ultrassonico
+C:   00000207  A$ultrassonico$1062                ultrassonico
+C:   00000207  C$uRTOS_2.21.h$193$2$14            ultrassonico
+C:   00000207  C$uRTOS_2.21.h$197$1$16            ultrassonico
+C:   00000207  G$iniLCD4$0$0                      ultrassonico
+C:   00000207  _iniLCD4                           ultrassonico
+C:   00000209  A$ultrassonico$1066                ultrassonico
+C:   00000209  C$uRTOS_2.21.h$198$1$16            ultrassonico
+C:   0000020B  A$ultrassonico$1067                ultrassonico
+C:   0000020E  A$ultrassonico$1074                ultrassonico
+C:   0000020E  C$uRTOS_2.21.h$199$1$16            ultrassonico
+C:   0000020E  C$uRTOS_2.21.h$200$1$16            ultrassonico
+C:   00000211  A$ultrassonico$1075                ultrassonico
+C:   00000213  A$ultrassonico$1080                ultrassonico
+C:   00000213  C$uRTOS_2.21.h$201$1$16            ultrassonico
+C:   00000215  A$ultrassonico$1081                ultrassonico
+C:   00000218  A$ultrassonico$1082                ultrassonico
+C:   0000021B  A$ultrassonico$1086                ultrassonico
+C:   0000021B  C$uRTOS_2.21.h$202$1$16            ultrassonico
+C:   0000021E  A$ultrassonico$1088                ultrassonico
+C:   00000221  A$ultrassonico$1092                ultrassonico
+C:   00000221  C$uRTOS_2.21.h$203$1$16            ultrassonico
+C:   00000223  A$ultrassonico$1093                ultrassonico
+C:   00000226  A$ultrassonico$1094                ultrassonico
+C:   00000229  A$ultrassonico$1098                ultrassonico
+C:   00000229  C$uRTOS_2.21.h$204$1$16            ultrassonico
+C:   0000022C  A$ultrassonico$1100                ultrassonico
+C:   0000022F  A$ultrassonico$1104                ultrassonico
+C:   0000022F  C$uRTOS_2.21.h$205$1$16            ultrassonico
+C:   00000231  A$ultrassonico$1105                ultrassonico
+C:   00000234  A$ultrassonico$1106                ultrassonico
+C:   00000237  A$ultrassonico$1109                ultrassonico
+C:   00000237  C$uRTOS_2.21.h$206$1$16            ultrassonico
+C:   0000023A  A$ultrassonico$1110                ultrassonico
+C:   0000023D  A$ultrassonico$1114                ultrassonico
+C:   0000023D  C$uRTOS_2.21.h$207$1$16            ultrassonico
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B7    0000028C =         652. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000023F  A$ultrassonico$1115                ultrassonico
+C:   00000242  A$ultrassonico$1116                ultrassonico
+C:   00000245  A$ultrassonico$1119                ultrassonico
+C:   00000245  C$uRTOS_2.21.h$208$1$16            ultrassonico
+C:   00000248  A$ultrassonico$1120                ultrassonico
+C:   0000024B  A$ultrassonico$1123                ultrassonico
+C:   0000024D  A$ultrassonico$1127                ultrassonico
+C:   0000024D  C$uRTOS_2.21.h$210$3$18            ultrassonico
+C:   0000024E  A$ultrassonico$1128                ultrassonico
+C:   00000251  A$ultrassonico$1129                ultrassonico
+C:   00000252  A$ultrassonico$1130                ultrassonico
+C:   00000253  A$ultrassonico$1134                ultrassonico
+C:   00000253  C$uRTOS_2.21.h$211$3$18            ultrassonico
+C:   00000255  A$ultrassonico$1135                ultrassonico
+C:   00000257  A$ultrassonico$1136                ultrassonico
+C:   00000259  A$ultrassonico$1137                ultrassonico
+C:   0000025C  A$ultrassonico$1138                ultrassonico
+C:   0000025E  A$ultrassonico$1142                ultrassonico
+C:   0000025E  C$uRTOS_2.21.h$212$3$18            ultrassonico
+C:   00000261  A$ultrassonico$1146                ultrassonico
+C:   00000261  C$uRTOS_2.21.h$213$3$18            ultrassonico
+C:   00000264  A$ultrassonico$1149                ultrassonico
+C:   00000264  C$uRTOS_2.21.h$209$2$17            ultrassonico
+C:   00000265  A$ultrassonico$1150                ultrassonico
+C:   00000268  A$ultrassonico$1152                ultrassonico
+C:   0000026A  A$ultrassonico$1155                ultrassonico
+C:   0000026A  C$uRTOS_2.21.h$215$2$17            ultrassonico
+C:   0000026A  XG$iniLCD4$0$0                     ultrassonico
+C:   0000026B  A$ultrassonico$1169                ultrassonico
+C:   0000026B  C$uRTOS_2.21.h$219$2$17            ultrassonico
+C:   0000026B  C$uRTOS_2.21.h$220$1$20            ultrassonico
+C:   0000026B  G$inic$0$0                         ultrassonico
+C:   0000026B  _inic                              ultrassonico
+C:   0000026D  A$ultrassonico$1172                ultrassonico
+C:   0000026D  C$uRTOS_2.21.h$221$1$20            ultrassonico
+C:   00000270  A$ultrassonico$1175                ultrassonico
+C:   00000270  C$uRTOS_2.21.h$222$1$20            ultrassonico
+C:   00000273  A$ultrassonico$1178                ultrassonico
+C:   00000273  C$uRTOS_2.21.h$223$1$20            ultrassonico
+C:   00000276  A$ultrassonico$1181                ultrassonico
+C:   00000276  C$uRTOS_2.21.h$224$1$20            ultrassonico
+C:   00000279  A$ultrassonico$1184                ultrassonico
+C:   00000279  C$uRTOS_2.21.h$225$1$20            ultrassonico
+C:   0000027C  A$ultrassonico$1187                ultrassonico
+C:   0000027C  C$uRTOS_2.21.h$226$1$20            ultrassonico
+C:   0000027F  A$ultrassonico$1190                ultrassonico
+C:   0000027F  C$uRTOS_2.21.h$227$1$20            ultrassonico
+C:   00000282  A$ultrassonico$1193                ultrassonico
+C:   00000282  C$uRTOS_2.21.h$228$1$20            ultrassonico
+C:   00000285  A$ultrassonico$1197                ultrassonico
+C:   00000285  C$uRTOS_2.21.h$229$1$20            ultrassonico
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B7    0000028C =         652. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000287  A$ultrassonico$1201                ultrassonico
+C:   00000287  C$uRTOS_2.21.h$230$1$20            ultrassonico
+C:   00000289  A$ultrassonico$1204                ultrassonico
+C:   00000289  C$uRTOS_2.21.h$231$1$20            ultrassonico
+C:   0000028C  A$ultrassonico$1207                ultrassonico
+C:   0000028C  C$uRTOS_2.21.h$232$1$20            ultrassonico
+C:   0000028C  XG$inic$0$0                        ultrassonico
+C:   0000028D  A$ultrassonico$1222                ultrassonico
+C:   0000028D  C$ultrassonico.c$10$1$20           ultrassonico
+C:   0000028D  C$ultrassonico.c$11$1$20           ultrassonico
+C:   0000028D  G$RTproc_1$0$0                     ultrassonico
+C:   0000028D  XG$RTproc_1$0$0                    ultrassonico
+C:   0000028D  _RTproc_1                          ultrassonico
+C:   0000028E  A$ultrassonico$1237                ultrassonico
+C:   0000028E  C$ultrassonico.c$13$1$20           ultrassonico
+C:   0000028E  C$ultrassonico.c$14$1$22           ultrassonico
+C:   0000028E  C$ultrassonico.c$15$1$22           ultrassonico
+C:   0000028E  G$RTproc_2$0$0                     ultrassonico
+C:   0000028E  _RTproc_2                          ultrassonico
+C:   00000291  A$ultrassonico$1241                ultrassonico
+C:   00000291  C$ultrassonico.c$16$2$23           ultrassonico
+C:   00000293  A$ultrassonico$1244                ultrassonico
+C:   00000293  C$ultrassonico.c$17$2$23           ultrassonico
+C:   00000296  A$ultrassonico$1248                ultrassonico
+C:   00000296  C$ultrassonico.c$18$2$23           ultrassonico
+C:   00000298  A$ultrassonico$1249                ultrassonico
+C:   0000029A  A$ultrassonico$1250                ultrassonico
+C:   0000029C  A$ultrassonico$1251                ultrassonico
+C:   0000029E  A$ultrassonico$1255                ultrassonico
+C:   0000029E  C$ultrassonico.c$19$2$23           ultrassonico
+C:   000002A1  A$ultrassonico$1259                ultrassonico
+C:   000002A1  C$ultrassonico.c$20$2$23           ultrassonico
+C:   000002A3  A$ultrassonico$1263                ultrassonico
+C:   000002A3  C$ultrassonico.c$21$1$22           ultrassonico
+C:   000002A3  XG$RTproc_2$0$0                    ultrassonico
+C:   000002A4  A$ultrassonico$1274                ultrassonico
+C:   000002A4  C$ultrassonico.c$23$1$22           ultrassonico
+C:   000002A4  G$ext_1$0$0                        ultrassonico
+C:   000002A4  _ext_1                             ultrassonico
+C:   000002A6  A$ultrassonico$1275                ultrassonico
+C:   000002A8  A$ultrassonico$1276                ultrassonico
+C:   000002AA  A$ultrassonico$1277                ultrassonico
+C:   000002AC  A$ultrassonico$1278                ultrassonico
+C:   000002AF  A$ultrassonico$1281                ultrassonico
+C:   000002AF  C$ultrassonico.c$24$1$25           ultrassonico
+C:   000002B1  A$ultrassonico$1282                ultrassonico
+C:   000002B3  A$ultrassonico$1283                ultrassonico
+C:   000002B5  A$ultrassonico$1285                ultrassonico
+C:   000002B7  A$ultrassonico$1288                ultrassonico
+C:   000002B7  C$ultrassonico.c$25$1$25           ultrassonico
+C:   000002B9  A$ultrassonico$1289                ultrassonico
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B7    0000028C =         652. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000002BB  A$ultrassonico$1290                ultrassonico
+C:   000002BC  A$ultrassonico$1291                ultrassonico
+C:   000002BE  A$ultrassonico$1292                ultrassonico
+C:   000002C0  A$ultrassonico$1293                ultrassonico
+C:   000002C1  A$ultrassonico$1294                ultrassonico
+C:   000002C3  A$ultrassonico$1295                ultrassonico
+C:   000002C5  A$ultrassonico$1299                ultrassonico
+C:   000002C5  C$ultrassonico.c$26$1$25           ultrassonico
+C:   000002C7  A$ultrassonico$1303                ultrassonico
+C:   000002C7  C$ultrassonico.c$27$1$25           ultrassonico
+C:   000002C9  A$ultrassonico$1304                ultrassonico
+C:   000002CB  A$ultrassonico$1305                ultrassonico
+C:   000002CD  A$ultrassonico$1306                ultrassonico
+C:   000002CF  A$ultrassonico$1307                ultrassonico
+C:   000002D1  A$ultrassonico$1310                ultrassonico
+C:   000002D1  C$ultrassonico.c$28$1$25           ultrassonico
+C:   000002D1  XG$ext_1$0$0                       ultrassonico
+C:   000002D2  A$ultrassonico$1330                ultrassonico
+C:   000002D2  C$ultrassonico.c$29$1$25           ultrassonico
+C:   000002D2  C$ultrassonico.c$32$1$26           ultrassonico
+C:   000002D2  G$main$0$0                         ultrassonico
+C:   000002D2  _main                              ultrassonico
+C:   000002D4  A$ultrassonico$1333                ultrassonico
+C:   000002D4  C$ultrassonico.c$33$1$26           ultrassonico
+C:   000002D7  A$ultrassonico$1336                ultrassonico
+C:   000002D7  C$ultrassonico.c$34$1$26           ultrassonico
+C:   000002DA  A$ultrassonico$1340                ultrassonico
+C:   000002DA  C$ultrassonico.c$35$1$26           ultrassonico
+C:   000002DC  A$ultrassonico$1344                ultrassonico
+C:   000002DC  C$ultrassonico.c$36$1$26           ultrassonico
+C:   000002DE  A$ultrassonico$1347                ultrassonico
+C:   000002E0  A$ultrassonico$1351                ultrassonico
+C:   000002E0  C$ultrassonico.c$38$3$28           ultrassonico
+C:   000002E1  A$ultrassonico$1352                ultrassonico
+C:   000002E4  A$ultrassonico$1353                ultrassonico
+C:   000002E5  A$ultrassonico$1354                ultrassonico
+C:   000002E6  A$ultrassonico$1356                ultrassonico
+C:   000002E8  A$ultrassonico$1357                ultrassonico
+C:   000002EA  A$ultrassonico$1358                ultrassonico
+C:   000002EC  A$ultrassonico$1359                ultrassonico
+C:   000002EF  A$ultrassonico$1360                ultrassonico
+C:   000002F1  A$ultrassonico$1363                ultrassonico
+C:   000002F1  C$ultrassonico.c$37$2$27           ultrassonico
+C:   000002F2  A$ultrassonico$1364                ultrassonico
+C:   000002F5  A$ultrassonico$1366                ultrassonico
+C:   000002F7  A$ultrassonico$1372                ultrassonico
+C:   000002F7  C$ultrassonico.c$40$1$26           ultrassonico
+C:   000002F7  C$ultrassonico.c$41$1$26           ultrassonico
+C:   000002FA  A$ultrassonico$1373                ultrassonico
+C:   000002FD  A$ultrassonico$1374                ultrassonico
+C:   00000300  A$ultrassonico$1375                ultrassonico
+ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B7    0000028C =         652. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000303  A$ultrassonico$1376                ultrassonico
+C:   00000306  A$ultrassonico$1377                ultrassonico
+C:   00000308  A$ultrassonico$1378                ultrassonico
+C:   0000030A  A$ultrassonico$1381                ultrassonico
+C:   0000030A  C$ultrassonico.c$42$2$29           ultrassonico
+C:   0000030D  A$ultrassonico$1382                ultrassonico
+C:   00000310  A$ultrassonico$1383                ultrassonico
+C:   00000313  A$ultrassonico$1384                ultrassonico
+C:   00000315  A$ultrassonico$1387                ultrassonico
+C:   00000315  C$ultrassonico.c$43$1$26           ultrassonico
+C:   00000315  XG$main$0$0                        ultrassonico
+C:   00000316  __divuint                          _divuint
+C:   0000033F  __sdcc_external_startup            _startup
+ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               00000343    00000014 =          20. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000343  G$setLCD4$0$0                      ultrassonico
+C:   00000343  _setLCD4                           ultrassonico
+C:   00000347  G$Tit1$0$0                         ultrassonico
+C:   00000347  _Tit1                              ultrassonico
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+
+Files Linked                              [ module(s) ]
+
+ultrassonico.rel                          [  ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\Program Files\SDCC\bin\..\lib\small/libint.lib
+                                          [ _divuint.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtclear.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxinit.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxclear.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtpagesfr.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtstart.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0001
+PSEG = 0x0001
+ISEG = 0x0000
+BSEG = 0x0000
+
+
