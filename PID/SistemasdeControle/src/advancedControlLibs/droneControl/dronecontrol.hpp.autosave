@@ -1,7 +1,0 @@
-#include "SistemasdeControle/headers/advancedControlLibs/droneControl/dronecontrol.h"
-
-template <class Type>
-ControlHandler::droneControl<Type>::droneControl()
-{
-    
-}
